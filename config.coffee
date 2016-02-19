@@ -4,21 +4,24 @@ exports.config =
 	files:
 		stylesheets:
 			joinTo:
-				'app.css': /^app/
+				'app.css': /^(app|vendor|bower_components)/
 		javascripts:
-			joinTo: {}
+			joinTo:
 				# This isn't needed when using Browserify.
-				# 'javascripts/app.js': /^app/
-				#'vendor.js': /^(vendor|bower_components)/
+				# 'app.js': /^app/
+				'vendor.js': /^(vendor|bower_components)/
 
 	# Again, browserify provides these.
+	paths:
+		watched: []
+	npm:
+		enabled: no
 	modules:
 		wrapper: no
 		definition: no
 
 	plugins:
 		browserify:
-			extensions: 'coffee'
 			bundles:
 				'app.js':
 					entry: 'app/bootstrap.coffee'

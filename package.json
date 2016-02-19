@@ -15,7 +15,7 @@
     "prebuild": "npm install --unsafe-perm",
     "build": "brunch build --production",
     "#prestart": "npm install",
-    "start": "brunch watch --server -d"
+    "start": "brunch watch --server"
   },
   "dependencies": {
     "angular": ">= 1.5 < 1.6",
@@ -24,7 +24,6 @@
   "devDependencies": {
     "assetsmanager-brunch": ">= 1.8 < 1.9",
     "bower": ">= 1.7 < 1.8",
-    "auto-reload-brunch": ">= 2.0 < 2.1",
     "browserify-brunch": ">= 1.7 < 1.8",
     "brunch": ">= 2.0 < 3.0",
     "clean-css-brunch": ">= 2.0 < 2.1",
