@@ -1,3 +1,6 @@
 - get brunch `npm install -g brunch`
 - read docs on http://brunch.io
 - create project `brunch new --skeleton https://github.com/TouK/brunch-isolated-angular [path]`
+- go to *path*
+- install deps `npm install`
+- start dev server `npm start`
