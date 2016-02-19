@@ -8,12 +8,10 @@ exports.config =
 		javascripts:
 			joinTo:
 				# This isn't needed when using Browserify.
-				# 'app.js': /^app/
+				'../temp/app.js': /^app/
 				'vendor.js': /^(vendor|bower_components)/
 
 	# Again, browserify provides these.
-	paths:
-		watched: []
 	npm:
 		enabled: no
 	modules:

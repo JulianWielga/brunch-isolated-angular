@@ -24,6 +24,7 @@
   "devDependencies": {
     "assetsmanager-brunch": ">= 1.8 < 1.9",
     "bower": ">= 1.7 < 1.8",
+    "auto-reload-brunch": ">= 2.0 < 2.1",
     "browserify-brunch": ">= 1.7 < 1.8",
     "brunch": ">= 2.0 < 3.0",
     "clean-css-brunch": ">= 2.0 < 2.1",
